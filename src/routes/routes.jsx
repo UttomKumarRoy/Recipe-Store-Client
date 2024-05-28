@@ -11,6 +11,8 @@ import ManageAllRecipe from "../pages/dashboard/ManageAllRecipe";
 import AddRecipe from "../pages/dashboard/AddRecipe";
 import EditRecipe from "../pages/dashboard/EditRecipe";
 import Test from "../pages/Test";
+import Contact from "../pages/Contact";
+import AllRecipes from "../pages/AllRecipes";
 
 export const router = createBrowserRouter([
   {
@@ -24,6 +26,14 @@ export const router = createBrowserRouter([
       {
         path: "about",
         element: <About />,
+      },
+      {
+        path: "contact",
+        element: <Contact />,
+      },
+      {
+        path: "all-recipes",
+        element: <AllRecipes />,
       },
       {
         path: "test",

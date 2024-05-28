@@ -48,14 +48,17 @@ export default function Navbar() {
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="flex items-center gap-6 px-1">
+        <li>
+          <Link to={"/"}>Home</Link>
+          </li>
           <li>
-            <a>All Recepies</a>
+          <Link to={"/all-recipes"}>All Recipes</Link>
           </li>
           <li>
             <Link to={"/about"}>About Us</Link>
           </li>
           <li>
-            <a>Contact Us</a>
+            <Link to={"/contact"}>Contact Us</Link>
           </li>
         </ul>
       </div>
